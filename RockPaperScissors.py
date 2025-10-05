@@ -1,3 +1,4 @@
+#A compact Python implementation of the classic Rock, Paper, Scissors game — written in only 25 lines, featuring simple logic flow and basic error handling for clean and efficient code.
 import random
 def game(user,cp):
     if user==cp:
@@ -22,4 +23,5 @@ def main():
         else:
             print("\033[91mInvalid choice. Please try harder!\033[0m")
 if __name__ == "__main__":
+
     main()
